@@ -282,7 +282,25 @@ select{
 
 /* responsive */
 
-/* tablet */
+
+@media screen and (max-width:980px) {
+
+	section {
+		position:relative;
+		left:7em;
+	}
+
+	aside {
+		top:60em;
+		left:15em;
+	}
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -313,8 +331,7 @@ select{
 	aside {
 		padding-top:10px;
 		margin-top:20px;
-		right:8em;
-		top:58em;
+		left:9em;
 	}
 
 	#main-content {
@@ -328,7 +345,6 @@ select{
 
 
 
-/* smartphone */
 
 
 @media screen and (max-width:640px) {
@@ -348,7 +364,7 @@ select{
 	}
 
 	aside {
-		right:4em;
+		left:5em;
 	}
 
 }
