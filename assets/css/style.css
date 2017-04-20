@@ -2,7 +2,7 @@ body {
   background-color:#d0d0d0;
   margin:auto;
   overflow:none;
-  background-image:url("assets\\images\\light-live-background-css.jpg");
+  
 }
 
 
@@ -23,7 +23,7 @@ h1 {
 	display:inline-block;
 	position:relative;
 	left:5em;
-	bottom:42px;
+	bottom:41px;
 	font-family:arial;
 	font-style:italic;
 	text-align:center;
@@ -80,7 +80,6 @@ section {
 	width:650px;
 	height:645px;
 	box-shadow:10px 10px 5px #888888;
-	overflow:none;
 	background-color:white;
 }
 
@@ -283,5 +282,73 @@ select{
 
 /* responsive */
 
+/* tablet */
+
+@media screen and (max-width: 768px) {
+
+	#header-list {
+		word-spacing:2px;
+	}
+
+	header {
+		height:140px;
+
+	}
+
+	h1 {
+		width:140px;
+		position:relative;
+		left:2em;
+	}
+
+	section {
+		padding:20px;
+		margin-left:20px;
+		margin-right:20px;
+		width:520px;
+		position:relative;
+		left:75px;
+	}
+
+	aside {
+		padding-top:10px;
+		margin-top:20px;
+		right:8em;
+		top:58em;
+	}
+
+	#main-content {
+		text-align:center;
+		width:490px;
+	}
+	
+}
 
 
+
+
+
+/* smartphone */
+
+
+@media screen and (max-width:640px) {
+
+	section {
+		width:500px;
+		position:relative;
+		left:20px;
+	}
+
+	#main-content {
+		padding:10px;
+		text-align:center;
+		width:450px;
+		font-family:arial;
+		line-height:30px;
+	}
+
+	aside {
+		right:4em;
+	}
+
+}
