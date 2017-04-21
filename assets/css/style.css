@@ -276,6 +276,34 @@ select{
 	background-color:white;
 }
 
+	#image1 {
+		width:250px;
+		height:250px;
+		border:0;
+		padding-bottom:10px;
+	}
+
+
+	#image2 {
+		width:250px;
+		height:250px; 
+		float:right;
+	}
+
+
+	#image3 {
+		width:250px; 
+		height:250px; 
+		float:left;
+	}
+	
+
+	#image4 {
+		width:250px; 
+		height:250px; 
+		float:right;
+	}
+
 
 
 
@@ -293,6 +321,34 @@ select{
 	aside {
 		top:60em;
 		left:15em;
+	}
+
+	#image1 {
+		width:250px;
+		height:250px;
+		border:0;
+		padding-bottom:10px;
+	}
+
+
+	#image2 {
+		width:250px;
+		height:250px; 
+		float:right;
+	}
+
+
+	#image3 {
+		width:250px; 
+		height:250px; 
+		float:left;
+	}
+	
+
+	#image4 {
+		width:250px; 
+		height:250px; 
+		float:right;
 	}
 }
 
@@ -338,7 +394,33 @@ select{
 		text-align:center;
 		width:490px;
 	}
+
+	#image1 {
+		width:200px;
+		height:200px;
+		border:0;
+	}
+
+
+	#image2 {
+		width:200px;
+		height:200px; 
+		float:right;
+	}
+
+
+	#image3 {
+		width:200px; 
+		height:200px; 
+		float:left;
+	}
 	
+
+	#image4 {
+		width:200px; 
+		height:200px; 
+		float:right;
+	}
 }
 
 
